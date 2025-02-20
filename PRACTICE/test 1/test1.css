@@ -1,0 +1,39 @@
+@font-face {
+    font-family:"ballaya" ;
+    src: url('./Sweet\ Snow.otf');
+}
+
+  
+body{
+    background: #348F50;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56B4D3, #348F50);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(86, 180, 211,0.8), rgba(52, 143, 80,0.8)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: grid;
+    place-items:center;
+    margin: 0;
+    background-size: cover;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    font-family: 'ballaya';
+    font-size: 56px;
+    margin: 0;
+}
+
+ul{ 
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+    mix-blend-mode: multiply;
+}
+.pic1{
+    width: 500px;
+    height: 500px;
+}
+
